@@ -1,0 +1,19 @@
+package gr.aueb.cf.cf9.ch7;
+
+import java.util.Scanner;
+
+/**
+ * demo of string input/output
+ */
+public class strIO {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = "";
+        String str2 = "";
+
+        System.out.println("Please enter two strings.");
+        str = scanner.next(); //διαβαζει μερι να βρει whitespace(spaces,tab,new line)
+        str2 = scanner.nextLine(); //διαβαζει μεχρι να βρει new line
+    }
+}
