@@ -1,5 +1,7 @@
 package gr.aueb.cf.cf9.ch8;
 
+import gr.aueb.cf.cf9.ch11.Student;
+
 import java.util.Scanner;
 
 public class Arithmetic3App {
@@ -27,5 +29,6 @@ public class Arithmetic3App {
             result = num1 / num2;
             System.out.println("Result: " + result);
         }
+
     }
 }
