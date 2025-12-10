@@ -33,6 +33,11 @@ public class Point2D  extends Point {
         super.movePlus10();
         y += 10;
     }
+
+    @Override
+    public String toString() {
+        return "(" + getX() + " ," + y + ")";
+    }
 }
 
 
