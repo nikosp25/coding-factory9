@@ -5,12 +5,20 @@ public class Point2D  extends Point {
 
     public Point2D() { //This happens by default from Java even if we don't write it.
        // super();
-       // y = 0;
+       // y = 0.0;
     }
 
     //overloaded constructor
     public Point2D(double x, double y) {
         super(x);
+        this.y = y;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
         this.y = y;
     }
 
