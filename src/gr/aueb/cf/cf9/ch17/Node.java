@@ -1,0 +1,23 @@
+package gr.aueb.cf.cf9.ch17;
+
+/**
+ * Ορίζει μια κλάση {@link Node}
+ * με ένα μόνο πεδίο.
+ */
+public class Node {
+    private int value;
+
+    public Node(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+}
+
+
