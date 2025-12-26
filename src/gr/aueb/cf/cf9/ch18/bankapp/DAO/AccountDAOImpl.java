@@ -1,4 +1,4 @@
-package gr.aueb.cf.cf9.ch18.bankapp.DAO;
+package gr.aueb.cf.cf9.ch18.bankapp.dao;
 
 import gr.aueb.cf.cf9.ch18.bankapp.model.Account;
 
