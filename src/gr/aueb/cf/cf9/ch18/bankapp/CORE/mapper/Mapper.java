@@ -15,7 +15,7 @@ public class Mapper {
     }
 
     public static Account mapToModelEntity(AccountInsertDTO dto) {
-        return new Account(dto.iban(), dto.balance());
+        return new Account(dto.iban(), dto.balance()); //those are getters from record, without ''get''
     }
 
     public static AccountReadOnlyDTO mapToReadOnlyDTO(Account account) {
