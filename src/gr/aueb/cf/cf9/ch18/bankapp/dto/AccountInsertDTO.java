@@ -1,7 +1,9 @@
 package gr.aueb.cf.cf9.ch18.bankapp.dto;
 
-public record AccountInsertDTO(String iban, double balance) {
-}
+public record AccountInsertDTO(String iban, double balance) {}
+
+
+
 
 // Ουσιαστικά το record μας δίνει όλα τα απο κάτω με μια γραμμή κώδικα. Χωρίς setters όμως. Tα records ειναί immutable.
 
