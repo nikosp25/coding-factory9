@@ -38,7 +38,7 @@ public class Main {
 
                         AccountReadOnlyDTO readOnlyDTO = accountController.createNewAccount(iban, balance);
                         System.out.println("Ο λογαριασμός δημιουργήθηκε (ανανεώθηκε) επιτυχώς με iban: " +
-                                readOnlyDTO.iban() + " υπόλοιπο: " + readOnlyDTO.balance());
+                                readOnlyDTO.iban() + " υπόλοιπο : " + readOnlyDTO.balance());
                     }
                     case "2" -> {
                         System.out.print("Παρακαλώ εισάγετε το iban: ");
